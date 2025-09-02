@@ -1,0 +1,11 @@
+package com.hospital;
+
+import java.util.List;
+
+public class Building {
+	
+
+
+	
+}
+

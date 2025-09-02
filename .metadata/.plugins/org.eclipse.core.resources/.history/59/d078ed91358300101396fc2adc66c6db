@@ -1,0 +1,27 @@
+package com.hospital;
+
+import java.util.List;
+
+public class Building {
+
+	
+	public Hospital_details getHospital_details() {
+		return hospital_details;
+	}
+
+	public void setHospital_details(Hospital_details hospital_details) {
+		this.hospital_details = hospital_details;
+	}
+
+	private Hospital_details hospital_details;
+	
+	
+	
+	public Building(Hospital_details hospital_details) 
+	{
+		this.hospital_details = hospital_details;
+	}
+	
+	
+}
+

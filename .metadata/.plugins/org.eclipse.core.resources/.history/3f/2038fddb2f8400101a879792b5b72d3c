@@ -1,0 +1,30 @@
+
+package com.student;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.student2.*;
+
+
+@Configuration
+@ComponentScan("com.*")
+public class SpringBeanCOnfiguration {
+	
+
+//	
+//
+//	@Bean("rahuladd")
+//	public Address rahuladd() 
+//	{
+//		
+//		return new Address();
+//	}
+//
+
+
+
+
+}
+
+

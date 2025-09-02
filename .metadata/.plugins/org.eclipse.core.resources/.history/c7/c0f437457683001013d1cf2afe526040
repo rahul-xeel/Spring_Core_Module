@@ -1,0 +1,25 @@
+package com.studen2;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class COllege2 {
+	
+	
+	private String name;
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+
+	
+
+}

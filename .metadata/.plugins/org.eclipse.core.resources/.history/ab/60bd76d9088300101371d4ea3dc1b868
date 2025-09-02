@@ -1,0 +1,34 @@
+package com.hospital;
+
+public class Building {
+	
+	public Building() {
+		System.out.println("Building Object Is Created");
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Hospital_details getHospital_details() {
+		return hospital_details;
+	}
+
+	public void setHospital_details(Hospital_details hospital_details) {
+		this.hospital_details = hospital_details;
+	}
+
+	private String name;
+
+	private Hospital_details hospital_details;
+
+	
+	
+	
+	
+	
+}

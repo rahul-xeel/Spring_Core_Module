@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Address.java&apos; to &apos;com.rahul.Address.java&apos;&#x0A;- Original project: &apos;SPRING_FW_APP_8&apos;&#x0A;- Destination element: &apos;com.rahul.Address.java&apos;&#x0A;- Original element: &apos;com.rahul.Address.java&apos;" description="Copy compilation unit" destination="/src&lt;com.rahul{Address.java" element1="/src&lt;com.rahul{Address.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1756187801595" units="1" version="1.0"/>
+</session>

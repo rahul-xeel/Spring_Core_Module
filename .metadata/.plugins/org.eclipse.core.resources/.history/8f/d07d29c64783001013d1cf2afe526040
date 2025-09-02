@@ -1,0 +1,17 @@
+package com.student;
+
+public class COllege {
+	
+	private String name;
+	
+	public COllege() {
+
+		System.out.println("College Object CReated");
+	
+	}
+	
+	
+
+	
+
+}

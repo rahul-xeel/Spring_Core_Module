@@ -1,0 +1,16 @@
+package com.hospital;
+
+import java.util.List;
+
+public class Building {
+	
+	public Building()
+	{
+		System.out.println("BUilding Object Created");
+	}
+
+	
+
+	
+}
+

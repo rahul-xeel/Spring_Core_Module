@@ -1,0 +1,25 @@
+package com.student;
+
+public class COllege {
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	private String name;
+	
+	public COllege() {
+
+		System.out.println("College Object CReated");
+	
+	}
+	
+	
+
+	
+
+}

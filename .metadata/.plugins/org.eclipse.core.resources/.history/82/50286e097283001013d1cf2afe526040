@@ -1,0 +1,37 @@
+package com.student;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+//import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Annotation_Demo {
+
+public static void main(String[] args) {
+	
+	
+//	ApplicationContext container = new FileSystemXmlApplicationContext()
+
+	
+	ApplicationContext container = new AnnotationConfigApplicationContext(SpringBeanCOnfiguration.class);
+	
+	
+	
+	
+	COllege  college = (COllege)container.getBean("COllege");
+	
+	 //	getting first bean
+			
+		System.out.println();
+		System.out.println("***********************************************************************************");
+		System.out.println();
+		System.out.println("BEAN ID college");
+		System.out.println();
+		System.out.println(college);
+		college.setName("Miet");
+		System.out.println(college.getName());
+		
+		
+}
+	
+	
+}

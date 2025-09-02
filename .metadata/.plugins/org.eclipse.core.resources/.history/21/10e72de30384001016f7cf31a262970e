@@ -1,0 +1,39 @@
+package com.student;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student {
+	
+	
+	
+	
+	public Student() 
+	{
+		System.out.println();
+		System.out.println("***********************************************************************************");
+		System.out.println();
+		System.out.println("Student Object Created");
+	}
+	
+	
+	
+	private String name;
+	
+	private Address addess;
+
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+
+	
+
+}

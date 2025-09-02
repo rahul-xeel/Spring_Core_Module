@@ -1,0 +1,26 @@
+package com.student;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.student2.COllege2;
+
+public class Annotation_Demo {
+
+public static void main(String[] args) {
+	
+	
+//	ApplicationContext container = new FileSystemXmlApplicationContext()
+
+	
+	ApplicationContext container = new AnnotationConfigApplicationContext(SpringBeanCOnfiguration.class);
+	
+	
+	
+	
+		
+
+}
+	
+	
+}

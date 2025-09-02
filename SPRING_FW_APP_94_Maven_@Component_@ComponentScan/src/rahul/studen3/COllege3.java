@@ -1,0 +1,34 @@
+package rahul.studen3;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class COllege3 {
+	
+	
+	public COllege3() 
+	{
+		System.out.println();
+		System.out.println("***********************************************************************************");
+		System.out.println();
+		System.out.println("COllege3 Object Created");
+	}
+	
+	
+	private String name;
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+
+	
+
+}

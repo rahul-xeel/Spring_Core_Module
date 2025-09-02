@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="student" class="com.rahul.Student">
+	
+		<property name="name" value="Rahul Papa"></property>
+		<property name="age" value="100"></property>
+		<property name="roll" value="102" ></property>
+
+</bean>
+
+
+
+<bean id="address" class="com.rahul.Address"></bean>
+
+</beans>

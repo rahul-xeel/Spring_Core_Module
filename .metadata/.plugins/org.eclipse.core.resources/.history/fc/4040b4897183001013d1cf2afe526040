@@ -1,0 +1,38 @@
+package com.student;
+
+public class COllege {
+	
+	
+	private String name;
+	
+	private Mystudent mystudent;
+	
+	
+	
+
+	public Mystudent getMystudent() {
+		return mystudent;
+	}
+
+	
+	public void setMystudent(Mystudent mystudent) {
+		this.mystudent = mystudent;
+	}
+	
+	
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+
+	
+
+}

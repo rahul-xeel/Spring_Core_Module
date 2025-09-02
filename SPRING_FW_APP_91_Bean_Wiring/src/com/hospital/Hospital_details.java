@@ -1,0 +1,51 @@
+package com.hospital;
+
+import java.util.List;
+
+public class Hospital_details {
+	
+
+	private int hospital_code;
+	private String hospital_name;
+	private long hospital_contact_number;
+	
+	
+	
+	
+	
+
+	public Hospital_details(int hospital_code, String hospital_name, long hospital_contact_number) {
+		super();
+		this.hospital_code = hospital_code;
+		this.hospital_name = hospital_name;
+		this.hospital_contact_number = hospital_contact_number;
+	}
+	
+	
+	
+	
+	public int getHospital_code() {
+		return hospital_code;
+	}
+	public void setHospital_code(int hospital_code) {
+		this.hospital_code = hospital_code;
+	}
+	public String getHospital_name() {
+		return hospital_name;
+	}
+	public void setHospital_name(String hospital_name) {
+		this.hospital_name = hospital_name;
+	}
+	public long getHospital_contact_number() {
+		return hospital_contact_number;
+	}
+	public void setHospital_contact_number(long hospital_contact_number) {
+		this.hospital_contact_number = hospital_contact_number;
+	}
+
+
+	
+
+	
+}
+

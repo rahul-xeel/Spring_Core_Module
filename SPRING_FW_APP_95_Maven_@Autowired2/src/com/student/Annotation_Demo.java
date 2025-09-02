@@ -1,0 +1,44 @@
+package com.student;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Annotation_Demo {
+
+public static void main(String[] args) {
+	
+	
+//	ApplicationContext container = new FileSystemXmlApplicationContext()
+
+	
+	ApplicationContext container = new AnnotationConfigApplicationContext(SpringBeanCOnfiguration.class);
+	
+	
+	
+
+	
+		Student Student = 	(Student) container.getBean("student1");
+	
+	 //	getting first bean
+			
+		System.out.println();
+		System.out.println("***********************************************************************************");
+		System.out.println();
+		System.out.println("BEAN ID student1");
+		System.out.println();
+		System.out.print("Student Object address is :- ");
+		System.out.println(Student);
+		System.out.println();
+		System.out.print("Address object inherited by Student object is :- ");
+		System.out.println(Student.getAddress());
+		System.out.println();
+		System.out.println(Student.getAddress().getCity());
+		System.out.println();
+		System.out.println(Student.getAddress().getPincode());
+		
+				
+
+}
+	
+	
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<!--CONFIGURING Patient CLASS BEAN -->
+	<bean id="patient" class="com.hospital.Patient">
+	
+	
+	</bean>
+	
+	
+	
+	<!--CONFIGURING Patient CLASS BEAN -->
+	<bean id="patien2" class="com.hospital.Patient">
+		<constructor-arg value="1"></constructor-arg>	
+	</bean>
+	
+	
+	
+	<!--CONFIGURING Patient CLASS BEAN -->
+	<bean id="patien3" class="com.hospital.Patient">
+		<constructor-arg value="1"></constructor-arg>
+		<constructor-arg value="Rahul Kumar"></constructor-arg>
+		<constructor-arg value="6209466064"></constructor-arg>
+	
+	</bean>
+	
+	
+	<!--CONFIGURING Patient CLASS BEAN -->
+	<bean id="patien4" class="com.hospital.Patient">
+		<constructor-arg value="Rohit Kumar" index="1"></constructor-arg>
+		<constructor-arg value="9999999" index="2"></constructor-arg>
+		<constructor-arg value="2" index="0"></constructor-arg>
+	
+	</bean>
+	
+	
+	
+	
+	<!--CONFIGURING Patient CLASS BEAN -->
+	<bean id="patien5" class="com.hospital.Patient">
+		<property name="id" value="1"></property>	
+	</bean>
+	
+
+</beans>

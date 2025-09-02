@@ -1,0 +1,5 @@
+ackage com.student;
+
+public @interface Configuration {
+
+}

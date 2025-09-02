@@ -1,0 +1,41 @@
+package com.student2;
+
+import org.springframework.stereotype.Component;
+
+@Component("rahul")
+public class COllege2 {
+	
+	
+	public COllege2() 
+	{
+		System.out.println();
+		System.out.println("***********************************************************************************");
+		System.out.println();
+		System.out.println("rahul Object Created");
+	}
+	
+	
+
+
+	private String name = "Rahul";  //default values
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public COllege2(String name) {
+		super();
+		this.name = name;
+	}
+	
+	
+	
+
+	
+
+}
